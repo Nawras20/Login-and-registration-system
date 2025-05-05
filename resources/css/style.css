@@ -1,0 +1,20 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+#header,
+#footer {
+    background: #696969;
+}
+
+a.nav-link,
+a.nav-link:hover,
+footer span {
+    color: white;
+}
+
+a.nav-link:hover {
+    background-color: #9f9f9f;
+}
